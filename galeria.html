@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<htmlm lang="es">
+<head>
+<title>El Silo Centro Naturista</title>
+<!--Icon-->
+<link rel="shortcut icon" href="images/l.fw.png">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<!--start slider -->
+<link rel="stylesheet" href="css/fwslider.css" media="all">
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<script src="js/fwslider.js"></script>
+<!--end slider -->
+<!---strat-date-piker---->
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<script src="js/jquery-ui.js"></script>
+<script>
+	  $(function() {
+	    $( "#datepicker,#datepicker1" ).datepicker();
+	  });
+</script>
+<!---/End-date-piker---->
+
+<link type="text/css" rel="stylesheet" href="css/JFFormStyle-1.css" />
+		<script type="text/javascript" src="js/JFCore.js"></script>
+		<script type="text/javascript" src="js/JFForms.js"></script>
+		<!-- Set here the key for your domain in order to hide the watermark on the web server -->
+		<script type="text/javascript">
+			(function() {
+				JC.init({
+					domainKey: ''
+				});
+				})();
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+	<div class="wrap">
+		<div class="header">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="h_right">
+				<!--start menu -->
+				<ul class="menu">
+						<li class="active">
+							<div class="dc-menu">
+									<a href="index.html">
+									<img src="images/home.fw.png" width="90%">	
+									<div style="line-height:2px;">Home</div>
+									</a>
+							</div>					
+						</li> 
+						<li>
+							<div class="dc-menu">
+									<a href="servicios.html">
+									<img src="images/servicios.fw.png" width="70%">	
+									<div style="line-height:2px;">Servicios</div>
+									</a>
+							</div>					
+						</li>
+						<li >
+							<div class="dc-menu">
+									<a href="galeria.html">
+									<img src="images/galeria.fw.png" width="70%">	
+									<div style="line-height:2px;">Galería</div>
+									</a>
+							</div>					
+						</li>
+						<li >
+							<div class="dc-menu">
+									<a href="quienes.html">
+									<img src="images/quienes.fw.png" width="40%">	
+									<div style="line-height:2px;">Quienes Somos</div>
+									</a>
+							</div>					
+						</li>
+						<li >
+							<div class="dc-menu">
+									<a href="contactos.html">
+									<img src="images/contactos.fw.png" width="50%">	
+									<div style="line-height:2px;">Contactos</div>
+									</a>
+							</div>					
+						</li>
+						<li >
+							<div class="dc-menu">
+									<a href="acceso.html">
+									<img src="images/acceso.fw.png" width="70%">	
+									<div style="line-height:2px;">Acceso</div>
+									</a>
+							</div>					
+						</li>	
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="top-nav">
+			<nav class="clearfix">
+					<ul>
+					<li class="active"><a href="index.html">Inicio</a></li> 
+					<li><a href="rooms.html">Servicios</a></li> 
+					<li><a href="reservation.html">Galería</a></li> 
+					<li><a href="activities.html">Quienes Somos</a></li> 
+					<li><a href="contact.html">Contactos</a></li>
+					<li><a href="contact.html">Acceso</a></li>
+					</ul>
+					<a href="#" id="pull">Menu</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+<!----start-images-slider---->
+		<div class="images-slider">
+			<!-- start slider -->
+		    <div id="fwslider">
+		        <div class="slider_container">
+		            <div class="slide"> 
+		                <!-- Slide image -->
+		                    <img src="images/slider-bg.jpg" alt=""/>
+		                <!-- /Slide image -->
+		                <!-- Texts container -->
+		                <div class="slide_content">
+		                    <div class="slide_content_wrap">
+		                        <!-- Text title -->
+		                        <h4 class="title"><i class="bg"></i>Distribuidores de productos naturales integrales, nacionales e importados en las mejores marcas a los mejores precios</h4>
+		                        <h5 class="title1"><i class="bg"></i>Con el respaldo de las mejores marcas</h5>
+		                        <!-- /Text title -->
+		                    </div>
+		                </div>
+		                 <!-- /Texts container -->
+		            </div>
+		            <!-- /Duplicate to create more slides -->
+		            <div class="slide">
+		                <img src="images/slider-bg.jpg" alt=""/>
+		                <div class="slide_content">
+		                     <div class="slide_content_wrap">
+		                        <!-- Text title -->
+		                        <h4 class="title">
+		                        	<i class="bg"></i>
+		                        	Productos para hígado riñones, próstata <br/>
+		                        	también cremas, shampoo y jabones <br/>
+									Desinfectantes, estimulantes y vitaminas
+								</h4>
+		                        <h5 class="title1">
+		                        	<i class="bg"></i>
+		                        	Inmunolive, Hepalive, Ginsen, entre otros...
+		                        </h5>
+		                        <!-- /Text title -->
+		                    </div>
+		                </div>
+		            </div>
+		            <!--/slide -->
+		        </div>
+		        <div class="timers"> </div>
+		        <div class="slidePrev"><span> </span></div>
+		        <div class="slideNext"><span> </span></div>
+		    </div>
+		    <!--/slider -->
+		</div>
+<!--start main -->
+<div class="main_bg">
+<div class="wrap">
+	<div class="online_reservation">
+	<div class="b_room">
+		<div class="booking_room">			
+			<img src="images/logotipo.fw.png">
+		</div>
+		<div class="reservation">
+			
+		mundo aplicacion en procesos de desarrollo publicacion reciente de procesos en control de ejemplos cada estilo
+		</div>
+		<div class="clear"><img src="images/publi1.fw.png"></div>
+		</div>
+	</div>
+	<!--start grids_of_3 -->
+	<div class="grids_of_3">
+		<div class="grid1_of_3">
+			<div class="grid1_of_3_img">				
+					<img src="images/pic2.jpg" class="h" />	
+					<a href="details.html">
+						<span class="next"> </span>
+					</a>	
+			</div>
+			<a href="details.html">
+						<span class="next"> </span>
+					</a>
+			<h4><a href="#" >single room<span>120$</span></a></h4>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+		<div class="grid1_of_3">
+			<div class="grid1_of_3_img">
+				<img src="images/pic3.jpg" class="h" />
+				<a href="details.html">
+					<span class="next"> </span>
+				</a>
+			</div>
+			<h4><a href="#">double room<span>180$</span></a></h4>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+		<div class="grid1_of_3">
+			<div class="grid1_of_3_img">
+				<img src="images/pic4.jpg" class="h" />	
+				<a href="details.html">
+					<span class="next"> </span>
+				</a>
+			</div>
+			<h4><a href="#">suite room<span>210$</span></a></h4>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+		<div class="clear"></div>
+	</div>	
+
+</div>		
+<!--start main -->
+<div class="footer_bg">
+	<div class="wrap">
+		<div class="footer">
+			<div class="copy">
+				<p class="link"><span>© All rights reserved | Desarrollado por:&nbsp;<a href="http://deividscriollo.hol.es"> Deivid Criollo</a></span></p>
+			</div>
+			<div class="soc_icons">
+				<ul>
+					<li><a class="icon1" href="https://www.facebook.com/pages/Centro-Naturista-El-Silo/1476642809227179?fref=ts"></a></li>
+					<li><a class="icon2" href="https://twitter.com/elsilosocial"></a></li>
+					<li><a class="icon3" href="https://plus.google.com/117580945511847981028/posts"></a></li>			
+					<div class="clear"></div>
+				</ul>	
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>	
+</body>
+</html>
+
+<span class="ir-arriba icon-arrow-up2">arriba</span>
